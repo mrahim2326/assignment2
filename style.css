@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inter-tight-font {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/*common uses */
+body {
+  font-family: inter;
+}
+
+/*header section*/
+.nav-bar{
+  height: 715px;
+  width: 1440px;
+  background: linear-gradient(180.00deg,#111111d0,#777777 , #111111cc);
+}
+.nav-aria{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 57px 190px ;
+  
+}
+.nav-first{
+   font-size:38px ;
+   color: #E6533C;
+}
+
+.nav-second{
+  text-decoration: none;
+  color: white;
+  margin: 10px ;
+  font-size: 100%;
+  font-weight: 400;
+  padding: 20px;
+}
+.nav-border{
+  border: 1px solid #FFFFFF1A;
+  border-radius: 40px;
+  align-items: center;
+  display: flex;
+}
+.home{
+  background-color: #E6533C;
+  border-radius: 40px;
+}
+.home-second{
+  text-decoration: none;
+  color: white;
+  margin: 1px ;
+  font-size: 100%;
+  font-weight: 400;
+  padding: 20px;
+}
+/*header second part*/
+.header-second-section{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.part-one-header{
+  width: 520px;
+  height: 282px;
+}
+.left-head{
+     font-size: 70px;
+     color: #ffffff;
+
+}
+
+
+.part-second-header{
+  display: flex;
+  width: 549px;
+  height: 549px;
+  padding: 0px;      
+}
