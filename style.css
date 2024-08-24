@@ -18,19 +18,27 @@
 /*common uses */
 body {
   font-family: inter;
+  background-color: black;
+  width: 100%;
 }
 
 /*header section*/
 .nav-bar{
-  height: 715px;
-  width: 1440px;
-  background: linear-gradient(180.00deg,#111111d0,#5c5c5c , #111111cc);
+  width: 100%;
+  background: linear-gradient(180.00deg,#0a0a0a,#1d1b1b , #000000);
 }
+.fa-solid-f{
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .nav-aria{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 57px 190px ;
+  margin: 15px ;
   
 }
 .nav-first{
@@ -42,7 +50,7 @@ body {
   text-decoration: none;
   color: white;
   margin: 10px ;
-  font-size: 100%;
+  font-size: 19px;
   font-weight: 400;
   padding: 20px;
 }
@@ -60,20 +68,37 @@ body {
   text-decoration: none;
   color: white;
   margin: 1px ;
-  font-size: 100%;
+  font-size: 20px;
   font-weight: 400;
   padding: 20px;
+}
+.home-second:hover{
+  background-color: white;
+  color: #E6533C;
+  border-radius: 40px;
+  margin: 1px ;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0px 18px;
+
+}
+.nav-second:hover{
+  color: #E6533C;
 }
 /*header second part*/
 .header-second-section{
   display: flex;
-  margin: 60px 90px;
-  justify-content: center;
-  
+  margin: 3%;
+  justify-content:space-around;
+}
+.ancore-icon{
+  color: white;
 }
 .part-one-header{
-  width: 520px;
-  height: 281px;
+
+}
+.fixed-main-taxt{
+  width: 600px;
 }
 .left-head{
      font-size: 75px;
@@ -85,6 +110,9 @@ body {
   font-size: 140px;
   font-weight: 300;
   line-height: 0px;
+}
+.shape:hover{
+  color: #E6533C;
   
 }
 .left-pra{
@@ -99,7 +127,6 @@ body {
   padding: 12px 22px;
   border-radius: 20px;
   font-size: 18px;
-
 }
 .left-button-tow{
   background-color:rgba(0, 0, 0, 0);
@@ -114,42 +141,154 @@ body {
 
 .part-second-header{
   display: flex;
-  width: 549px;
-  height: 549px;
-  margin: -35px 40px;     
-}
+  padding: 4
 
+}
+.second-header-five-pra{
+  color: white;
+}
+.re-design-header{
+
+}
+.second-header-five-pra{
+  font-size:16px;
+}
 
 .fitness-one-item{
   background-color: #0000009c;
   height: 100px;
-  width: 400px;
+  width: 40%;
   margin-top: 390px;
   margin-right: -70px;
-  display: flex;
+  display: block;
   z-index: 10;
   border-radius: 15px;
+  line-height: 0px;
 
 }
 
 
 .fitness-tow-item{
   background-color: #0000008e;
-  height: 100px;
-  width: 400px;
+   height: 100px;
+  width: 40%;
   margin-top: 140px;
   margin-left: -110px;
+  padding: 4px;
   z-index: 10;
   border-radius: 15px;
   line-height: 0%;
   color: white;
   font-size: 20px;
-  font-weight: 300;
-  justify-content: center;
+  font-weight: 800;
   
 }
 .second-header-five{
   color: white;
   font-size: 46px;
   
+}
+
+
+/*****first main section*****/
+
+.main-first{
+  text-align: center;
+  width:100%;
+  
+}
+.main-first-head{
+  color: white;
+  font-size: 40px;
+}
+.main-first-pra{
+  color: rgba(253, 252, 249, 0.699);
+  font-weight: 400;
+  font-size: larger;
+
+}
+.main-first-div{
+  display: flex;
+  width: 100%;
+
+}
+.main-first-div-image{
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  font-size: larger;
+  margin: 10px;
+}
+.main-first-div-second-image{
+  border: 6px solid rgba(35, 35, 37, 0.767);
+  border-radius: 50%; 
+  
+}
+.main-first-div-pra{
+  color: rgba(240, 248, 255, 0.747);
+}
+.t{
+  display: none;
+}
+
+/*main second section*/
+.run-section{
+  width: 100%;
+  background-color:#676765
+  ;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+  .run{
+    color: white;
+  }
+  .run-head-text{
+    font-size: 30px;
+  }
+  .run-pra{
+    font-size: 15px;
+  }
+  .image-run-section{
+width: 95%;
+    border-radius:18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    justify-content: center;
+    align-items: center;
+    }
+/*common*/
+
+
+
+@media only screen and (max-width: 1300px) {
+  .header-second-section {
+    display: block;
+  }
+  .nav-border{
+    display: none;
+  }
+  .main-first-div{
+    display: block;
+    width: 100%;
+  
+  }
+  .run-section{
+    display: block;
+  }
+}
+/*min*/
+@media only screen and (min-width: 1300px) {
+  .part-one-header{
+    width: 40%;
+ }
+ .fitness-tow-item{
+  padding-right: 0%;
+}
+.fa-solid-f{
+ display: none;
+  
+}
 }
